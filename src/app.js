@@ -13,6 +13,7 @@ fetchCountryInfo(searchInput.value);
 searchInput.value = '';
 }
 
+
 async function fetchCountryInfo(name) {
     errorMessage.innerHTML = ``;
     countryInfo.innerHTML = ``;
